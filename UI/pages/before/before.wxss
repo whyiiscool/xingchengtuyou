@@ -1,0 +1,16 @@
+.con{
+  position: absolute;
+  width:90%;  
+  height:100%;
+  left: 40rpx;
+}
+
+.t1{
+  font-size: 200%;
+  font-weight: bold
+}
+
+.hr{
+  margin-top: 20rpx;
+  border-bottom: 1px solid rgb(98, 231, 209);
+}

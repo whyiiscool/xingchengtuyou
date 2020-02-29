@@ -1,0 +1,8 @@
+<view class='con'>
+<view class='head'><text class='headt1'>爱晚亭 \n</text><text class='headt2'> 中国四大名亭之一 </text></view>
+<view>
+<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;爱晚亭，位于湖南省长沙市岳麓山下清风峡中，始建于1792年，名字来源于杜牧的七言绝句《山行》中的"停车坐爱枫林晚"。\n
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;爱晚亭与陶然亭、湖心亭、醉翁亭并称中国四大名亭，也是革命活动胜地，为湖南省文物保护单位。亭形为重檐八柱，琉璃碧瓦，亭角飞翘，自远处观之似凌空欲飞状。内为丹漆圆柱，外檐四石柱为花岗岩，亭中彩绘藻井，东西两面亭棂悬以红底鎏金"爱晚亭"，是由当时的湖南大学校长李达专函请毛泽东所书手迹而制。
+</text>
+</view>
+</view>

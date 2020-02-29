@@ -1,0 +1,13 @@
+<view class='con'>
+<text>为您推荐</text>
+<text class='t1'decode="{{true}}">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{name}}
+</text>
+<view class='hr'></view>
+<text decode="{{true}}">
+&nbsp;&nbsp;&nbsp;&nbsp;简洁：{{value}}
+</text>
+<text decode="{{true}}">
+&nbsp;&nbsp;&nbsp;&nbsp;交通：{{way}}
+</text>
+</view>

@@ -1,0 +1,48 @@
+<view>
+  <view>
+    <image src='/pages/image/car.jpg' class='imgclass'></image>
+  </view>
+  <view class='conter'>
+    <form bindsubmit='submitForm' report-submit='true'>
+      <view class='bom'>
+        <view class='tex'>出发点</view>
+        <view class='lr'>
+          <input type='text' name="from" placeholder='请输入您当日所在位置'></input>
+        </view>
+      </view>
+      <view class='bom'>
+        <view class='tex'>目的地</view>
+        <view class='lr'>
+          <input type='text' name="to" placeholder='请输入您想去的地方'></input>
+        </view>
+      </view>
+      <view class='bom'>
+        <view class='tex'>交通工具</view>
+        <view class='lr'>
+          <input type='text' name="car" placeholder='请输入您当日所乘坐的交通工具'></input>
+        </view>
+      </view>
+      <view class='bom'>
+        <view class='tex'>旅馆</view>
+        <view class='lr'>
+          <input type='text' name="hotel" placeholder='请输入您当日入住的旅馆'></input>
+        </view>
+      </view>
+      <view class='bom'>
+        <view class='tex'>日期</view>
+        <picker name="time" mode="date" value="{{date}}" start="2019-05-01" end="2021-12-30" bindchange="bindDateChange" class="lr">
+          <view>
+            当前选择: {{date}}
+          </view>
+        </picker>
+      </view>
+      <view class='bom1'>
+        <view class='tex1'>注意事项</view>
+        <view class='lr'>
+          <textarea type='text' name="ps" placeholder='PS：该栏输入你当日行程所需要注意的地方，提醒您自己，避免遗忘' class='line'></textarea>
+        </view>
+      </view>
+      <button form-type='submit'>确定行程</button>
+    </form>
+  </view>
+</view>

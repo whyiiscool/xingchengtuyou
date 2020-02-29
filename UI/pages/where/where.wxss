@@ -1,0 +1,27 @@
+.imgclass{
+  height: 300rpx;
+  width: 90%;
+  margin-left: 30rpx;
+}
+
+.conter{
+  margin-top: 20rpx;
+  padding: 10rpx;
+  font-size: 30rpx;
+  width: 100%;
+  border-top: 3px solid rgb(8, 115, 187);
+}
+
+.bom{
+  display: flex;
+  margin-bottom: 10rpx;
+  width: 100%;
+  border-bottom: 1px solid rgb(8, 115, 187);
+}
+
+.text{
+  line-height: 50px;
+  margin-left: 30rpx;
+  font-size: 40rpx;
+}
+

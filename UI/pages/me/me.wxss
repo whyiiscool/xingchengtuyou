@@ -1,0 +1,22 @@
+.top{
+  height: 450rpx;
+  background-color: #2e86e0;
+  background: linear-gradient(#2e86e0, white);
+}
+
+.imagesize image { 
+  margin-top: 40rpx;
+  width:450rpx;
+  height:400rpx;
+  border-radius: 50%;
+  }
+
+.imagesize{
+ display:flex;                    
+ justify-content: center;       
+ }
+
+ .con1{
+   margin-top: 50rpx;
+   background-color: #ffffff
+ }

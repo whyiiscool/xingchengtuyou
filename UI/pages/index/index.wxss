@@ -1,0 +1,46 @@
+/**index.wxss**/
+
+page{
+   height:100%
+}
+
+.container{
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.userinfo {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.userinfo-avatar {
+  margin-top: 0px;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+
+.imagesize{
+ margin-top: 30px;
+ display:flex;                    
+ justify-content: center;       
+ }
+
+.imagesize image { 
+  width:700rpx;
+  height:600rpx;
+  border-radius: 50%;
+  }

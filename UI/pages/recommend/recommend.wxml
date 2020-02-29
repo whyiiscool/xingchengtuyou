@@ -1,0 +1,6 @@
+<view class="container">
+<view wx:for="{{part[0].regeocodeData.pois}}" class="con">
+<text>{{item.name}}</text>
+<text>{{item.type}}</text>
+</view>
+</view>

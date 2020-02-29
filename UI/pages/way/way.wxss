@@ -1,0 +1,53 @@
+.imgclass{
+  height: 300rpx;
+  width: 90%;
+  margin-left: 30rpx;
+}
+
+.conter{
+  margin-top: 20rpx;
+  padding: 10rpx;
+  font-size: 30rpx;
+  width: 85%;
+  margin-left: 30rpx;
+  border-top: 3px solid rgb(8, 115, 187);
+}
+
+.bom{
+  display: flex;
+  margin-bottom: 10rpx;
+  width: 100%;
+  border-bottom: 1px solid rgb(8, 115, 187);
+}
+
+.tex{
+  flex: 3;
+  height: 60rpx;
+  text-align: center;
+  line-height:55rpx; 
+}
+
+.lr{
+  flex: 10;
+  height: 60rpx;
+}
+
+.line{
+  width:100%;
+}
+
+.bom1{
+  
+  margin-bottom: 10rpx;
+  width: 100%;
+  border-bottom: 1px solid rgb(8, 115, 187);
+  height: 400rpx;
+}
+
+.tex1{
+  flex: 3;
+  height: 60rpx;
+  margin-left: 10rpx;
+  line-height:55rpx; 
+}
+

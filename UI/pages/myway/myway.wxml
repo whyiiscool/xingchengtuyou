@@ -1,0 +1,12 @@
+<view class='con'>
+  <view class='head'>您的行程</view>
+      <view wx:for="{{list}}" wx:key="start" class='one'>
+      <text>时  间：{{item.time}}\n</text>
+      <text>出发点：{{item.start}}\n</text>
+      <text>目的地：{{item.end}}\n</text>
+      <text>用  车：{{item.car}}\n</text>
+      <text>旅  馆：{{item.hotel}}\n</text>
+      <text>提  示：{{item.ps}}\n</text>
+      <button open-type='share' class="share" plain='true'>分享</button>
+</view>
+</view>

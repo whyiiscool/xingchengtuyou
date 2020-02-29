@@ -1,0 +1,23 @@
+<view class="con">
+<view>
+  <text class="tex1">您当前位置：\n</text>
+  <text class="tex2">{{where[0].desc}}</text>
+</view>
+<view class="tex1"><text>搜索结果如下：</text></view>
+  <view class="listBox" wx:for="{{searchShow}}" wx:key="{{item.way}}">
+    <view class="listMain">
+      <navigator url='../where2/where2?way={{item.way}}'>
+        <view class='listTitle'>
+          <view class="listSubtitle">
+          <view class="tex2"><text>路线特点</text></view>
+            <text decode="{{true}}" class="tex3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.spec}}</text>
+          </view>
+          <view class="listText">
+          <view class="tex2"><text>路线</text></view>
+            <text decode="{{true}}" class="tex3">{{item.way}}</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<view class='con'>
+<view class='head'><text class='headt1'>橘子洲 \n</text><text class='headt2'> 5A级旅游景点</text></view>
+<view>
+<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;橘子洲风景区位于湖南省长沙市市区对面的湘江江心，是湘江中最大的名洲，面积有91.4公顷。由南至北，横贯江心，西望岳麓山，东临长沙城，四面环水，绵延十多里，狭处横约40米，宽处横约140米，形状是一个长岛，是国家重点风景名胜区。\n
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016年8月，国家旅游局决定对严重不达标的橘子洲景区摘牌，是全国第二批被摘牌的景区。2017年12月18日，全国旅游资源规划开发质量评定委员会组织专家组复核，决定即日起恢复橘子洲景区国家5A级旅游景区质量等级。
+</text>
+</view>
+</view>

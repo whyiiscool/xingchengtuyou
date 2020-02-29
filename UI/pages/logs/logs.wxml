@@ -1,0 +1,19 @@
+<!--logs.wxml-->
+<view>
+<swiper indicator-dots='true' autoplay='true' interval='3000' duration='500' class='dots'>
+<block wx:for="{{list}}">
+<swiper-item data-pageid='{{item.pageUrl}}' bindtap='jumpToInnerPage'>
+<image src="{{item.coverPath}}" class="img"></image>
+</swiper-item>
+</block>
+</swiper>
+<view class='button1，splite-line-dotted'>
+<button class='travel' type="default" size="{{defultSize}}" loading="{{loading}}"
+plain="{{plain}}" disabled="{{disabled}}" bindtap="fault" bindtap="detail1">景点推荐</button>
+<button class='commit' type="default" size="{{defultSize}}" loading="{{loading}}"
+plain="{{plain}}" disabled="{{disabled}}" bindtap="fault" bindtap="detail2">加入行程</button>
+<button class='commit' type="default" size="{{defultSize}}" loading="{{loading}}"
+plain="{{plain}}" disabled="{{disabled}}" bindtap="fault" bindtap="detail3">当前周边</button>
+</view>
+<view class='splite-line-dotted1'></view>
+</view>

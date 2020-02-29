@@ -1,0 +1,12 @@
+.bom{
+  margin-top: 30px;
+  margin-bottom: 10rpx;
+  width: 100%;
+  border-bottom: 1px solid rgb(8, 115, 187);
+}
+
+.head{
+  height: 350rpx;
+  background-color: #2e86e0;
+  background: linear-gradient(#2e86e0, white);
+}

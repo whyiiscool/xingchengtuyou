@@ -1,0 +1,27 @@
+<view class="container">
+  <view class='con'>
+    <text>所在市区: {{weather.city.data}}</text>
+    <text>当前位置：{{part[0].desc}}</text>
+    <text decode="{{true}}">天气: {{weather.weather.data}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;温度: {{weather.temperature.data}} ℃</text>
+    <text decode='{{true}}'>风速: {{weather.winddirection.data}} {{weather.windpower.data}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;湿度: {{weather.humidity.data}}</text>
+    <block wx:if="{{weather.weather.data==note[0]}}">
+      <text>出行建议：  最舒服的天气，适合出门，可以带上雨伞、少涂防晒霜，顺序的就是舒舒服服的享受天气了！</text>
+      <block wx:if="{{weather.city.data==city[0]}}">
+        <text>推荐附近游玩去处：岳麓山、橘子洲头</text>
+      </block>
+    </block>
+    <block wx:if="{{weather.weather.data==note[1]}}">
+      <text>出行建议：  阴天建议带把雨伞出行,尽量不要去野外地区,最好去看一下室内景观。</text>
+      <block wx:if="{{weather.city.data==city[0]}}">
+        <text>推荐附近游玩去处：湖南博物馆</text>
+      </block>
+    </block>
+    <block wx:if="{{weather.weather.data==note[2]}}">
+      <text>出行建议：  明媚的天气适合和家人一同外出踏青，但同时也需要做好防晒工作。</text>
+      <block wx:if="{{weather.city.data==city[0]}}">
+        <text>推荐附近游玩去处：湘江边、橘子洲头</text>
+      </block>
+    </block>
+    <!--<text>{{part[0].regeocodeData.pois[3].name}}</text>-->
+  </view>
+</view>

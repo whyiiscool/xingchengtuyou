@@ -1,0 +1,38 @@
+
+
+.img{
+  width: 100%;
+  height: 400rpx;
+}
+
+.dots{
+  height: 400rpx;
+}
+
+.button1{
+height: 700rpx;
+
+}
+
+.splite-line-dotted {
+  margin-top: 20px;
+  height: 3px;
+  border: none;
+  border-top:10px dotted #2e86e0;
+}
+
+.splite-line-dotted1 {
+  margin-top: 240px;
+  height: 3px;
+  border: none;
+  border-top:10px dotted #2e86e0;
+}
+
+.travel{
+  border-radius: 0;
+  margin-top: 35px; 
+}
+.commit{
+  border-radius: 0;
+  margin-top: 15px; 
+}

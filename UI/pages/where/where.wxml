@@ -1,0 +1,30 @@
+<view>
+  <view>
+    <image src='/pages/image/car.jpg' class='imgclass'></image>
+  </view>
+  <view class='conter'>
+    <form bindsubmit='submitForm' report-submit='true'>
+
+      <view>
+      <view class='text'>行程天数</view>
+        <radio-group class='bom' name="day" bindchange="radioChange">
+          <label class="radio" wx:for="{{day}}">
+            <radio  value="{{item.name}}" checked="{{item.checked}}" /><text decode="{{true}}">{{item.value}}&nbsp;&nbsp;&nbsp;&nbsp;</text>
+          </label>
+        </radio-group>
+      </view>
+
+      <view>
+      <view class='text'>行程目的</view>
+        <radio-group  class='bom' name="type" bindchange="radioChange">
+          <label class="radio" wx:for="{{type}}">
+            <radio  value="{{item.name}}" checked="{{item.checked}}" /><text decode="{{true}}">{{item.value}}&nbsp;&nbsp;&nbsp;&nbsp;</text>
+          </label>
+        </radio-group>
+      </view>
+
+      <button form-type='submit'>搜索路线</button>
+      <button >查看历史</button>
+    </form>
+  </view>
+</view>

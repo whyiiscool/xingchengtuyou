@@ -1,0 +1,40 @@
+<view class="tui-map">
+  <map id="map" longitude="{{currentLo}}" latitude="{{currentLa}}" scale="{{scale}}" markers="{{markers}}" polyline="{{polyline}}" include-points="{{includePoints}}" show-location style="width: 100%; height: 100%;">
+    <cover-view class="tui-search-bottom {{show ? '' : 'tui-hide'}}">
+      <cover-view class="page-group">
+        <cover-view class="page-nav-list {{statusType == 'car' ? 'active' : ''}}">
+          <button data-type="car" bindtap="goTo">
+            <cover-image class='jiache' src='../image/驾车.png' mode='wideFix'></cover-image>
+          </button>
+        </cover-view>
+        <cover-view class="page-nav-list {{statusType == 'walk' ? 'active' : ''}}">
+          <button data-type="walk" bindtap="goTo">
+            <cover-image class='jiache' src='../image/步行.png' mode='wideFix'></cover-image>
+          </button>
+        </cover-view>
+        <cover-view class="page-nav-list {{statusType == 'ride' ? 'active' : ''}}">
+          <button data-type="ride" bindtap="goTo">
+            <cover-image class='jiache' src='../image/自行车.png' mode='wideFix'></cover-image>
+          </button>
+        </cover-view>
+        <cover-view class="page-nav-list {{statusType == 'aaaa' ? 'active' : ''}}">
+          <button data-type="aaaa" bindtap="goTo">
+            <cover-image class='jiache' src='../image/公交.png' mode='wideFix'></cover-image>
+          </button>
+        </cover-view>
+      </cover-view>
+      <view class='hz'>驾车 　　　　　步行 　　　　　骑行 　　　　　公交
+      </view>
+      <cover-view class="tui-warn">
+        {{distance}}米
+      </cover-view>
+      <cover-view class="tui-warn">
+        {{duration}}分钟
+      </cover-view>
+    </cover-view>
+  </map>
+</view>
+<view class="tui-map-search" bindtap="getAddress">
+  <icon size='20' type='search' class='tui-map-search-icon'></icon>
+  <input class="tui-map-input" placeholder="搜索" focus="{{focusStatus}}"></input>
+</view>

@@ -1,0 +1,10 @@
+<view class='con'>
+  <view class='text'><text class='t2'>您的收藏</text></view>
+      <view wx:for="{{like}}" wx:key="area" class='t'>
+      <text class='t2'>地点：\n</text>
+      <text class='text'>{{item.area}}\n</text>
+      <text class='t2'>意义：\n</text>
+      <text class='text'>{{item.value}}\n</text>
+      </view>
+  <view><button class='but' bindtap="detail">新的收藏</button></view>
+</view>

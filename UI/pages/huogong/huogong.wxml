@@ -1,0 +1,8 @@
+<view class='con'>
+<view class='head'><text class='headt1'>火宫殿 \n</text><text class='headt2'> 湖湘味道 </text></view>
+<view>
+<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;火宫殿是湖南长沙集传统民俗文化、火庙文化、饮食文化于一体的具有代表性的大众场所，特别是火宫殿的风味小吃享誉三湘。作为湖南省长沙市的著名特色景点，位于长沙市坡子街。\n
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;火宫殿同时也是一家驰名中外的“中华老字号”企业，在这里可以吃到各种长沙和湖南小吃，比如长沙臭豆腐、正宗红烧肉、糍粑等等。火宫殿作为美食城现在在长沙有5处，1家总店，4家分店。
+</text>
+</view>
+</view>

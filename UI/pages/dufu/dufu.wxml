@@ -1,0 +1,9 @@
+<view class='con'>
+<view class='head'><text class='headt1'>杜甫江阁\n</text><text class='headt2'> 观橘洲风景，远眺麓山烟</text></view>
+<view>
+<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;杜甫江阁，属于园林仿古建筑，为纪念唐朝诗人杜甫所建。
+杜甫江阁位于湖南省长沙市河东城区西湖桥，地处湘江路中段和西湖路交界处，临湘江为湘江风光带的一部分，与橘子洲、岳麓山隔江相望，距天心阁不足一千米。\n
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;江阁园林区占地6000多平方米，建筑面积3800多平方米，主阁共分四层，高18米。2002年长沙市人民政府决定正式修建，2005年9月19日整个建筑全面建成并通过专家验收，随后向市民进行试开放。
+</text>
+</view>
+</view>

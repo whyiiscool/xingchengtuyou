@@ -1,0 +1,3 @@
+<view>
+<button bindtap='pic'>拍照</button>
+</view>

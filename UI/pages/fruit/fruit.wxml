@@ -1,0 +1,9 @@
+<view>
+<view class='head'><text>{{view}}</text></view>
+<view wx:for="{{list}}" wx:key="area" class='note'>
+      <text decode='{{true}}' class='two'>&nbsp;&nbsp;&nbsp;&nbsp;周边推荐：\n</text>
+      <view class='one'><text>{{item.have}}\n</text></view>
+      <text decode='{{true}}' class='two'>&nbsp;&nbsp;&nbsp;&nbsp;推荐理由：\n</text>
+      <view class='one'><text>{{item.value}}\n</text></view>
+      </view>
+</view>

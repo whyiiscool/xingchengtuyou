@@ -1,0 +1,14 @@
+<view>
+<view class='top imagesize'>
+<image src='/pages/image/earth.jpg' class="imagesize image" bindtap="bindViewTap"></image>
+</view>
+<view class='con1'>
+<button bindtap="detail">我的行程</button>
+<button bindtap='pic'>合影留念</button>
+</view>
+<view class='con1'>
+<button bindtap="detail3">天气情况</button>
+<button bindtap="detail4">订制旅行</button>
+<button bindtap="detail5">定位</button>
+</view>
+</view>

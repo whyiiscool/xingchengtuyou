@@ -1,0 +1,8 @@
+<view class='con'>
+<view class='head'><text class='headt1'>世界之窗\n</text><text class='headt2'>主题乐园的领跑者</text></view>
+<view>
+<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长沙世界之窗位于湖南省长沙市东北郊区浏阳河畔，是由湖南电广传媒股份有限公司、深圳华侨城控股股份有限公司和香港中旅集团共同投资兴建的文化主题公园。\n
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长沙世界之窗始建于1995年，坐落于金鹰影视文化城内，占地40万平方米。1997年10月1日试营业，是一个融先锋时尚活动、大型器械游乐、世界各国建筑奇观、五洲风情歌舞表演、影视拍摄基地于一体的综合性大型主题公园。
+</text>
+</view>
+</view>

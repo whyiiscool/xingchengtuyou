@@ -1,0 +1,9 @@
+<view class='con'>
+<view class='head'><text class='headt1'>湘江大桥\n</text><text class='headt2'> 风撑三连跨</text></view>
+<view>
+<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;橘子洲大桥于1971年9月开始动工建设，1972年9月竣工，共耗资
+湘江大桥1800万元，主要用于购置原料和建材、设备。建设用工主要来自于居民的义务投入。全长1250米。\n
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;橘子洲大桥为大型钢筋混凝土双曲拱公路桥，全长1250米，主桥21跨，其中正桥17跨双曲拱桥、最大宽径76米，桥面净宽20米，其中车行道14米，两边人行道各3 米。共有18个台墩，在橘洲上有支桥，支桥长282米，宽8米。大河的墩身为混凝土浇筑，小河的墩身用块片石嵌砌。
+</text>
+</view>
+</view>

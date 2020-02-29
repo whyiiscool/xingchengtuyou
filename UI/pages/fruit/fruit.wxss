@@ -1,0 +1,41 @@
+.head{
+  background-color: burlywood;
+  width: 40%;
+  margin-left: 220rpx;
+  line-height: 120rpx;
+  text-align: center;
+  margin-top: 100rpx;
+  font-weight: bold;
+  font-size: 140%;
+  border: 1px solid burlywood; 
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius:20px;
+  
+}
+
+
+.note{
+  background-color: burlywood;
+  width: 85%;
+  line-height: 70rpx; 
+  margin-top: 70rpx;
+  margin-left: 50rpx;
+  border: 1px solid burlywood; 
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius:20px;
+  padding:10px 5px 20px 5px;
+}
+
+.one{
+  text-align: center;
+  font-size: 100%;
+}
+
+.two{
+  font-size: 110%;
+  font-weight: bold
+}

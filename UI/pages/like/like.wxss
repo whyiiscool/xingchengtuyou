@@ -1,0 +1,33 @@
+
+.text{
+  text-align: center;
+  line-height: 80rpx;
+  padding:10px 5px 15px 20px;
+  
+}
+
+.con{
+background-color: 	#E0FFFF;
+}
+
+.but{
+  font-weight: bold; 
+  margin-top: 10rpx;
+  width:240rpx;
+  height: 100rpx;
+  text-align: center;
+  background-color: 	#E0FFFF;
+  border:3px solid rgba(29, 41, 153, 0.438);
+}
+
+.t{
+  padding:10px 5px 15px 20px;
+  border:3px solid rgba(29, 41, 153, 0.438);
+  border-left-width:0px;
+  border-right-width:0px;
+  border-bottom-width:0px;
+}
+
+.t2{
+  font-weight: bold;
+}

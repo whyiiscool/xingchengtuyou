@@ -1,0 +1,25 @@
+.con{
+  padding:10px 20px 30px 20px;
+  border: 1px solid rgb(64, 153, 226); 
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius:20px;
+  width: 80%;
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+}
+
+.head{
+  text-align: center;
+  line-height: 100rpx;
+  
+}
+.headt1{
+font-weight: bolder;
+font-size: 200%;
+}
+.headt2{
+  font-weight: bold;
+  color: #d3d3d3;   
+}

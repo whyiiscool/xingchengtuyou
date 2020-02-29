@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+<view class='imagesize'>
+<image src='/pages/image/juzi.jpg' class="imagesize image" bindtap="bindViewTap"></image></view>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取个人信息 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text bindtap="bindViewTap" class="userinfo-nickname">您好，{{userInfo.nickName}}</text>
+      <text bindtap="bindViewTap" class="userinfo-nickname">这是您的路线使者</text>
+    </block>
+  </view>
+</view>

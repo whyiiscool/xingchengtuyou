@@ -1,0 +1,16 @@
+<!--pages/index/Component/FormM/FormM.wxml-->
+<form class="page__bd" bindsubmit="formSubmit" bindreset="formReset">
+  <view class='head'></view>
+  <view class='bom'>
+    <view>请输入您想收藏的地点或路线</view>
+    <input name="input1" style="background-color: #FFFFFF" placeholder="请在这里输入" />
+  </view>
+  <view class='bom'>
+    <view>您想保存下来的留言</view>
+    <input name="input2" style="background-color: #FFFFFF" placeholder="请在这里输入" />
+  </view>
+  <view style="display:flex;margin-top:50px;">
+    <button form-type="submit">Submit</button>
+    <button form-type="reset">Reset</button>
+  </view>
+</form>

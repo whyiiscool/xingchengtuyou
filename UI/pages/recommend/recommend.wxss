@@ -1,0 +1,27 @@
+.container{
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #4D8AD7;
+  color: #fff;
+  padding-top: 30rpx;
+  padding-left: 5rpx;
+}
+.container text{
+  display: block;
+  margin: 30px;
+}
+
+.con{
+  border: 1px solid #000000; 
+  line-height: 40rpx;
+  font-size: 18px;
+  margin-top: 150rpx;
+  padding:20px 0px 20px 0px;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius:20px;
+}
