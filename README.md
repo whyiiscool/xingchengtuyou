@@ -11,8 +11,6 @@
     1.2 utils — 存放utils文件，可require引入
     
 2. 后端代码 - 存放通过JDBC修改数据库文件，以及Servlet文件和dao包    
-  
-## 项目截图：
 
 ## 技术路线：
 项目使用了Javascript+HTML+CSS进行开发，地图导航、周边服务等核心功能围绕云服务和接口进行实现，后端使用JDBC与MySQL数据库连接，前端使用Ajax进行数据交互，运用MVC模式完成项目开发。
