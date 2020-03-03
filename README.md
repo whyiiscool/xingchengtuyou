@@ -10,6 +10,6 @@
   
     1.2 utils — 存放utils文件，可require引入
     
-  2.后端代码 - 存放通过JDBC修改数据库文件，以及Servlet文件和dao包    
+2. 后端代码 - 存放通过JDBC修改数据库文件，以及Servlet文件和dao包    
   
   
