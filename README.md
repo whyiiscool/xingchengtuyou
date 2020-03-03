@@ -8,5 +8,12 @@
   1.1 images — 存放项目图片
   1.2 pages — 存放项目页面相关文件
   1.3 style — 存放独立wxss样式文件，可import引入
-  1.4 utils — 存放utils文件，可require引入
+  1.4 utils — 存放utils文件，可require引入1. item
+  1.1 item
+  1.2 item
+  
+  1. item
+  1.1 item
+  1.2 item
+  
   
